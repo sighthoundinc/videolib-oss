@@ -1,0 +1,12 @@
+INSTALL (
+    FILES ${CMAKE_CURRENT_SOURCE_DIR}/stream.h
+    DESTINATION include/videoLib)
+INSTALL (
+    FILES ${CMAKE_CURRENT_SOURCE_DIR}/sv_os.h
+    DESTINATION include/videoLib)
+INSTALL (
+    FILES ${CMAKE_CURRENT_SOURCE_DIR}/streamFactories.h
+    DESTINATION include/videoLib)
+INSTALL (
+    FILES ${CMAKE_CURRENT_SOURCE_DIR}/videolibExports.h
+    DESTINATION include/videoLib)
